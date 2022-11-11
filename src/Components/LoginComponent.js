@@ -16,7 +16,7 @@ export function LoginComponent(){
         return(
                 <div className="container-fluid">
                        <form onSubmit={formik.handleSubmit}>
-                       <h2>Login Page</h2> 
+                       <h2>User Login Page</h2> 
                         <dl>
                                 <dt>UserName</dt>
                                 <dd><input type='text' onChange={formik.handleChange} name="UserName"/></dd>
